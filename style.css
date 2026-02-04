@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Quintessential&family=Share+Tech&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +13,47 @@ body {
 }
 
 .titulo-destaque {
-    color: blueviolet;
+    color: turquoise;
 }
 
-.container {
+.apresentacao {
+    margin: 10% 15%;
     display: flex;
     align-items: center;
-    height: 100vh;
-    text-align: start;
-    gap: 20px;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__titulo {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+}
+
+.apresentacao__texto {
+    font-family: 'Share Tech', sans-serif;
+    font-size: 24px;
+}
+
+.apresentacao__conteudo__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__link {
+    background-color: turquoise;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Quintessential", serif;
+    font-weight: bold;
 }
