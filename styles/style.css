@@ -39,10 +39,6 @@ body{
     text-decoration: none;
 }
 
-.titulo-destaque {
-    color: var(--cor-terciaria);
-}
-
 .apresentacao {
     margin: 5% 15%;
     display: flex;
@@ -61,6 +57,10 @@ body{
 .apresentacao__conteudo__titulo {
     font-family: var(--fonte-primaria);
     font-size: 2.25rem; /* 36 px*/
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -128,5 +128,10 @@ apresentao__imagem{
 
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
     }
 }
